@@ -19,7 +19,7 @@ export const galleryConfig: GalleryConfig = {
 			id: "firefly-2026",
 			name: "可爱",
 			description: "绽放在终竟的明天。",
-			location: "崩坏：星穹铁道",
+			location: "崩坏",
 			date: "2026-01-01",
 			tags: ["崩道", "流萤"],
 		},
