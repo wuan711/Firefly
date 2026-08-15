@@ -48,9 +48,9 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
+				name: "乌托邦",
+				artist: "乌托邦 / ciyo",
+				url: "/assets/music/乌托邦.mp3",
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
