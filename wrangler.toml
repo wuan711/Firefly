@@ -1,5 +1,5 @@
 name = "firefly"
-compatibility_date = "2026-08-14" #jintian
+compatibility_date = "2026-08-15" #jintian
 
 [assets]
 directory = "./dist"
