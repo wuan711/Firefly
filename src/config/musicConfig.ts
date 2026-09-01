@@ -55,13 +55,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				lrc: "",
 			},
 			{
-				name: "乌托邦",
-				artist: "乌托邦 / ciyo",
+				name: "雨爱",
+				artist: "雨爱 / 杨丞琳",
 				url: "https://tu.711250.xyz/file/杨丞琳_-_雨爱.mp3",
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
-			
+
 		],
 	},
 };
