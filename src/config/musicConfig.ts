@@ -61,6 +61,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
+			
 		],
 	},
 };
