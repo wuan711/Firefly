@@ -40,7 +40,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
 			
-			"assets/images/DesktopWallpaper/d5.avif",
+			"https://tu.711250.xyz/file/背景/90623.png",
 			//"assets/images/DesktopWallpaper/d6.avif",
 		],
 		// 移动背景图片（支持单张或多张随机）
