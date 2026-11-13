@@ -54,6 +54,21 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
+			{
+				name: "雨爱",
+				artist: "雨爱 / 杨丞琳",
+				url: "https://tu.711250.xyz/file/杨丞琳_-_雨爱.mp3",
+				cover: "/assets/music/cover/109951169585655912.webp",
+				lrc: "",
+			},
+				{
+				name: "小半",
+				artist: "小半 / 陈粒",
+				url: "https://tu.711250.xyz/file/音乐/陈粒_-_小半.mp3",
+				cover: "/assets/music/cover/109951169585655912.webp",
+				lrc: "",
+			},
+
 		],
 	},
 };
