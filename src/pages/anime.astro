@@ -173,6 +173,34 @@ if (BILIBILI_UID) {
 	}
 }
 
+// ============ 只展示指定作品 ============
+
+// 追番页面仅保留「石纪元」系列与「堀与宫村」系列。
+// B 站标题含全角字符，且同一系列有多季、特别篇、中配版等变体，
+// 因此用关键词匹配标题，而不是写死条目名单；以后新增的季度也会自动保留。
+const ALLOWED_ANIME_KEYWORDS = [
+	"石纪元",
+	"石紀元",
+	"Dr.STONE",
+	"堀与宫村",
+	"堀與宮村",
+	"堀桑与宫村君",
+	"Horimiya",
+	"ホリミヤ",
+];
+
+const keepAnime = (title: string): boolean => {
+	const normalized = title.normalize("NFKC").toLowerCase();
+	return ALLOWED_ANIME_KEYWORDS.some((keyword) =>
+		normalized.includes(keyword.normalize("NFKC").toLowerCase()),
+	);
+};
+
+tmdbItems = tmdbItems.filter((item) =>
+	keepAnime(item.title || item.name || ""),
+);
+bilibiliItems = bilibiliItems.filter((item) => keepAnime(item.title));
+
 // ============ 数据标准化 ============
 
 // 标准化 TMDB 数据
