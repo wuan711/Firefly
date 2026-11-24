@@ -50,7 +50,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 			{
 				name: "乌托邦",
 				artist: "乌托邦 / ciyo",
-				url: "/assets/music/乌托邦.mp3",
+				url: "https://picbed.10100325.xyz/a/jqzyscrcmrkr8i2h",
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
